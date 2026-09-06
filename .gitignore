@@ -1,0 +1,25 @@
+# Secret API keys
+.env
+.streamlit/secrets.toml
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Uploaded documents
+uploads/*
+!uploads/.gitkeep
+
+# Vector database files
+*.faiss
+*.pkl
+
+# IDE and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
